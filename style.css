@@ -26,8 +26,6 @@ p {
 }
 
 p {
-  line-height: 1.5;
-  letter-spacing: 0.25px;
   font-size: 15px;
 }
 
@@ -38,7 +36,7 @@ p {
 }
 
 .testimonial {
-  padding: 14px;
+  padding: 16px;
   border-radius: 8px;
   box-shadow: 6px 6px 20px 0.6px rgba(0, 0, 0, 0.12);
 }
@@ -52,7 +50,7 @@ p {
   position: absolute;
   right: 20px;
   top: 0;
-  width: 70px;
+  width: 60px;
 }
 
 .testimonial-box2 {
@@ -92,9 +90,8 @@ p {
   .container {
     grid-template-columns: repeat(4, 1fr);
     max-width: 1100px;
-    margin: 50px auto;
-    width: 80%;
-    max-height: 100vh;
+    margin: 100px auto 0;
+    
   }
 
   .testimonial-box1 {
